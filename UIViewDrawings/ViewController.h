@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Star;
 
 @interface ViewController : UIViewController
-
+@property (weak,nonatomic) IBOutlet Star *starView;
 
 @end
 

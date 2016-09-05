@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Star.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+    
+}
+-(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator{
+    [self.starView setNeedsDisplay];
+
 }
 
 @end

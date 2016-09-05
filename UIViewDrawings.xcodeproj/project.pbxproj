@@ -13,6 +13,7 @@
 		9633AB2A1D7C8B0C0051D6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9633AB281D7C8B0C0051D6AA /* Main.storyboard */; };
 		9633AB2C1D7C8B0C0051D6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9633AB2B1D7C8B0C0051D6AA /* Assets.xcassets */; };
 		9633AB2F1D7C8B0C0051D6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9633AB2D1D7C8B0C0051D6AA /* LaunchScreen.storyboard */; };
+		9633AB381D7C906D0051D6AA /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = 9633AB371D7C906C0051D6AA /* Star.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9633AB2B1D7C8B0C0051D6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9633AB2E1D7C8B0C0051D6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9633AB301D7C8B0C0051D6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9633AB361D7C906C0051D6AA /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		9633AB371D7C906C0051D6AA /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		9633AB131D7C8B0C0051D6AA = {
 			isa = PBXGroup;
 			children = (
+				9633AB361D7C906C0051D6AA /* Star.h */,
+				9633AB371D7C906C0051D6AA /* Star.m */,
 				9633AB1E1D7C8B0C0051D6AA /* UIViewDrawings */,
 				9633AB1D1D7C8B0C0051D6AA /* Products */,
 			);
@@ -153,6 +158,7 @@
 				9633AB271D7C8B0C0051D6AA /* ViewController.m in Sources */,
 				9633AB241D7C8B0C0051D6AA /* AppDelegate.m in Sources */,
 				9633AB211D7C8B0C0051D6AA /* main.m in Sources */,
+				9633AB381D7C906D0051D6AA /* Star.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
