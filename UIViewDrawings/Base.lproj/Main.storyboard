@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -22,20 +21,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="600" id="Csv-Ju-x5T"/>
-                                    <constraint firstAttribute="width" secondItem="1rw-P1-4Iy" secondAttribute="height" multiplier="1:1" id="PNP-GT-wQc"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="95q-jo-fOe"/>
-                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xv2-D7-nFf"/>
-                            <constraint firstAttribute="trailing" secondItem="1rw-P1-4Iy" secondAttribute="trailing" id="gKX-Fo-HKC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1rw-P1-4Iy" secondAttribute="bottom" id="snL-Q1-xuI"/>
-                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tOS-5A-zTJ"/>
-                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tQw-gw-PWa"/>
+                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HYR-ta-Jag"/>
+                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MYb-Oz-mT5"/>
+                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="aQE-Fh-VRI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1rw-P1-4Iy" secondAttribute="bottom" id="cCA-uw-H2o"/>
+                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="kLW-xn-NCA"/>
+                            <constraint firstAttribute="trailing" secondItem="1rw-P1-4Iy" secondAttribute="trailing" id="srA-rA-IEc"/>
+                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vWe-8v-rH6"/>
+                            <constraint firstItem="1rw-P1-4Iy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zfC-h2-OGK"/>
                         </constraints>
                     </view>
                     <connections>

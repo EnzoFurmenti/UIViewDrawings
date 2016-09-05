@@ -10,12 +10,19 @@
 
 @interface Star : UIView
 
-@property (assign, nonatomic) CGPoint centerPoint;
-@property (assign, nonatomic) CGFloat radius;
-@property (assign, nonatomic) CGFloat widthLine;
+//@property (assign, nonatomic) CGPoint centerPoint;
+//@property (assign, nonatomic) CGFloat radius;
+//@property (assign, nonatomic) CGFloat widthLine;
+//
+//@property (assign, nonatomic) CGColorRef starColorRef;
+//@property (assign, nonatomic) CGColorRef lineColorRef;
+//@property (assign, nonatomic) CGColorRef circleColorRef;
 
-@property (assign, nonatomic) CGColorRef starColorRef;
-@property (assign, nonatomic) CGColorRef lineColorRef;
-@property (assign, nonatomic) CGColorRef circleColorRef;
+//-(instancetype)initWithRadiusCircumCicleForStar:(CGFloat)radius
+//                                    centerPoint:(CGPoint)centerPoint
+//                                      widthLine:(CGFloat)widthLine
+//                                      starColor:(CGColorRef)starColor
+//                                   lineColorRef:(CGColorRef)lineColor
+//                                 circleColorRef:(CGColorRef)circleColor;
 
 @end

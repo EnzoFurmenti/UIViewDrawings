@@ -26,8 +26,7 @@
 }
 
 -(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator{
-    [self.starView setNeedsDisplay];
-
+        [self.starView setNeedsDisplay];
 }
 
 @end
