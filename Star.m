@@ -47,31 +47,23 @@
 
     CGContextSetFillColorWithColor(context, self.starColorRef);
     
-    CGFloat offsetVertex3X = sqrtf(2.f) * sqrtf(1 - cos(2*M_PI/5)) * self.radius / 2; //DE/2
-    CGFloat offsetVertex3Y = sqrtf(sqrf(self.radius) - sqrf(offsetVertex3X));//GD
+    CGFloat offsetVertex3X = sqrtf(2.f) * sqrtf(1 - cos(2*M_PI/5)) * self.radius / 2;
+    CGFloat offsetVertex3Y = sqrtf(sqrf(self.radius) - sqrf(offsetVertex3X));
     
-    CGFloat offsetVertex5X = sqrtf(2.f) * sqrtf(1 - cos(4*M_PI/5)) * self.radius / 2;//AB/2
-    CGFloat offsetVertex5Y = sqrtf(sqrf(self.radius) - sqrf(offsetVertex5X));//AC
+    CGFloat offsetVertex5X = sqrtf(2.f) * sqrtf(1 - cos(4*M_PI/5)) * self.radius / 2;
+    CGFloat offsetVertex5Y = sqrtf(sqrf(self.radius) - sqrf(offsetVertex5X));
     
-    CGFloat offsetVertex2X = offsetVertex5X;//AB/2
-    CGFloat offsetVertex2Y = offsetVertex5Y;//AC
+    CGFloat offsetVertex2X = offsetVertex5X;
+    CGFloat offsetVertex2Y = offsetVertex5Y;
     
-    CGFloat offsetVertex4X = offsetVertex3X;//DE/2
-    CGFloat offsetVertex4Y = offsetVertex3Y;//GD
+    CGFloat offsetVertex4X = offsetVertex3X;
+    CGFloat offsetVertex4Y = offsetVertex3Y;
     
     CGPoint vertex1 = CGPointMake(self.center.x, self.center.y - self.radius);
     CGPoint vertex2 = CGPointMake(self.center.x + offsetVertex2X,self.center.y - offsetVertex2Y);
     CGPoint vertex3 = CGPointMake(self.center.x + offsetVertex3X,self.center.y + offsetVertex3Y);
     CGPoint vertex4 = CGPointMake(self.center.x - offsetVertex4X,self.center.y + offsetVertex4Y);
     CGPoint vertex5 = CGPointMake(self.center.x - offsetVertex5X,self.center.y - offsetVertex5Y);
-    
-    //long Star
-//    CGPoint vertex1 = CGPointMake(self.center.x, self.center.y - self.radius);
-//    CGPoint vertex2 = CGPointMake(self.center.x + offsetVertex4X,self.center.y - offsetVertex4Y);
-//    CGPoint vertex3 = CGPointMake(self.center.x + offsetVertex2X,self.center.y + offsetVertex2Y);
-//    CGPoint vertex4 = CGPointMake(self.center.x - offsetVertex5X,self.center.y + offsetVertex5Y);
-//    CGPoint vertex5 = CGPointMake(self.center.x - offsetVertex3X,self.center.y - offsetVertex3Y);
-    
     
 //star
     CGContextMoveToPoint(context, vertex1.x, vertex1.y);
@@ -111,22 +103,6 @@
     
     CGContextAddArc(context,vertex5.x,vertex5.y, radius, 0, 2 * M_PI, 1);
     CGContextFillPath(context);
-
-    
-    
-    //    NSValue *valueVertex1 = [NSValue valueWithCGPoint:vertex1];
-    //    NSValue *valueVertex2 = [NSValue valueWithCGPoint:vertex2];
-    //    NSValue *valueVertex3 = [NSValue valueWithCGPoint:vertex3];
-    //    NSValue *valueVertex4 = [NSValue valueWithCGPoint:vertex4];
-    //    NSValue *valueVertex5 = [NSValue valueWithCGPoint:vertex5];
-    
-    //    NSArray *arrayVertexForStar =
-    //    [[NSArray alloc]initWithObjects:   valueVertex1,
-    //                                       valueVertex2,
-    //                                       valueVertex3,
-    //                                       valueVertex4,
-    //                                       valueVertex5,
-    //                                       valueVertex1, nil];
 }
 
 CGFloat sqrf(CGFloat number){

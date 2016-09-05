@@ -14,8 +14,6 @@
 @property (assign, nonatomic) CGFloat radius;
 @property (assign, nonatomic) CGFloat widthLine;
 
-
-
 @property (assign, nonatomic) CGColorRef starColorRef;
 @property (assign, nonatomic) CGColorRef lineColorRef;
 @property (assign, nonatomic) CGColorRef circleColorRef;
