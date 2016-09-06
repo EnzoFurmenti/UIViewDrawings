@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class Star;
+//@class Star;
+@class Canvas;
+@class  DrawTool;
 
 @interface ViewController : UIViewController
-@property (weak,nonatomic) IBOutlet Star *starView;
-
 @end
 
